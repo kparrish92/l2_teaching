@@ -1,0 +1,326 @@
+---
+title: "Clase 1: ¿Qué es la adquisición de una segunda lengua (SLA)?"
+subtitle: 'La enseñanza de lenguas romances como L2'
+author  : "Kyle Parrish"
+date    : "Goethe Uni Frankurt</br>Verano 2025</br>Last update: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: [default, hygge, my-css.css, rutgers-fonts]
+    lib_dir: libs
+    nature:
+      countIncrementalSlides: false
+      ratio: 16:9
+---
+
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(
+  comment = '', fig.width = 6, fig.height = 6, message = FALSE, warning = FALSE, echo = FALSE
+)
+```
+
+```{r xaringan-themer, include=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  # primary_color = "#345865",
+  primary_color = "#B56B6F",
+  secondary_color = "#2c8475",
+  black_color = "#4242424",
+  white_color = "#FFF",
+  base_font_size = "25px",
+  # text_font_family = "Jost",
+  # text_font_url = "https://indestructibletype.com/fonts/Jost.css",
+  header_font_google = google_font("Times New Roman", "400", "700"),
+  header_font_weight = "400",
+  inverse_header_color = "#eaeaea",
+  title_slide_text_color = "black",
+  text_slide_number_color = "#9a9a9a",
+  text_bold_color = "#f79334",
+  code_inline_color = "#B56B6F",
+  code_highlight_color = "transparent",
+  link_color = "#2c8475",
+  table_row_even_background_color = lighten_color("#345865", 0.9),
+  extra_fonts = list(
+    google_font("Times New Roman", "400")
+  ),
+  colors = c(
+    green = "#31b09e",
+    "green-dark" = "#2c8475",
+    highlight = "#87f9bb",
+    purple = "#887ba3",
+    pink = "#B56B6F",
+    orange = "#f79334",
+    red = "#dc322f",
+    `blue-dark` = "#002b36",
+    `text-dark` = "#202020",
+    `text-darkish` = "#424242",
+    `text-mild` = "#606060",
+    `text-light` = "#9a9a9a",
+    `text-lightest` = "#eaeaea"
+  ),
+  extra_css = list(
+    ".remark-slide-content h3" = list(
+      "margin-bottom" = 0, 
+      "margin-top" = 0
+    ),
+    ".smallish, .smallish .remark-code-line" = list(`font-size` = "0.9em")
+  )
+)
+xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons", "share_again"))
+xaringanExtra::use_extra_styles()
+```
+
+
+```{r components, include=FALSE}
+slides_from_images <- function(
+  path,
+  regexp = NULL,
+  class = "hide-count",
+  background_size = "contain",
+  background_position = "top left"
+) {
+  if (isTRUE(getOption("slide_image_placeholder", FALSE))) {
+    return(glue::glue("Slides to be generated from [{path}]({path})"))
+  }
+  if (fs::is_dir(path)) {
+    imgs <- fs::dir_ls(path, regexp = regexp, type = "file", recurse = FALSE)
+  } else if (all(fs::is_file(path) && fs::file_exists(path))) {
+    imgs <- path
+  } else {
+    stop("path must be a directory or a vector of images")
+  }
+  imgs <- fs::path_rel(imgs, ".")
+  breaks <- rep("\n---\n", length(imgs))
+  breaks[length(breaks)] <- ""
+
+  txt <- glue::glue("
+  class: {class}
+  background-image: url('{imgs}')
+  background-size: {background_size}
+  background-position: {background_position}
+  {breaks}
+  ")
+
+  paste(txt, sep = "", collapse = "")
+}
+options("slide_image_placeholder" = FALSE)
+```
+
+## ¿Qué es una segunda lengua?
+
+--
+
+Según Saville-Troike: La adquisición de **una nueva lengua** después de la infancia.
+
+Puede ser la segunda, tercera, o décima lengua aprendida (todos los casos son SLA según ella)
+
+--
+
+.pull-left[
+.full-width[
+.content-box-grey[
+**Discusión 1 (20 minutos)**
+
+¿Estás de acuerdo en que la adquisición de L2 debería incluir todas las lenguas aprendidas después de la infancia? (tercera, cuarta, etc.).
+
+Apoye su opinión con un ejemplo de su propio aprendizaje o enseñanza: ¿por qué sí o por qué no?
+
+]]]
+
+```{r}
+library(countdown)
+
+countdown(minutes = 10, seconds = 0)
+```
+
+---
+
+## Una breve introducción a la adquisición de una L3
+
+--
+
+.pull-left[
+.full-width[
+.content-box-grey[
+Existe un campo llamado **adquisición de L3** que se centra precisamente en esta cuestión: ¿es lo mismo aprender una L3 que una L2?
+
+Se han presentado varias propuestas como modelos científicos.
+
+Quieren predecir cómo **la L1 y la L2 influyen el proceso** de adquirir la L3
+]]]
+
+--
+
+.pull-right[
+.full-width[
+.content-box-grey[
+Los modelos se tratan de si…
+
+…los hablantes tienen **acceso** a las dos lenguas o sólo a una.
+
+…la influencia de una lengua **es únicamente útil** o no
+
+…si hay **diferencias entre personas**.
+
+]]]
+
+---
+
+## Las predicciones de los modelos:
+
+.large[
+[**The Cumulative Enhancement Model**](https://docs.google.com/presentation/d/1SIhAXc7fxzv0WGxlBwwac06HkgoSqFBriMhFVPgEp2w/edit?usp=sharing): El aprendizaje de idiomas es acumulativo: todos los conocimientos lingüísticos previos pueden ayudar al aprendizaje posterior ([Flynn et al. 2004](https://www.tandfonline.com/doi/abs/10.1080/14790710408668175)). 
+]
+
+--
+
+
+.large[
+[**The L2 Status Factor Model**](https://docs.google.com/presentation/d/1smxU-C3Wql1-CuOx5lcD8txeQwKf3Jxk4m5AMUvSIno/edit?usp=sharing): Las segundas lenguas interfieren y ejercen una influencia tanto útil como inútil en la tercera lengua ([Bardel & Falk, 2007](https://journals.sagepub.com/doi/abs/10.1177/0267658307080557?casa_token=PdwS4Tp1jboAAAAA:QrV_W08tLjN7_mf3-0qySDjoViT3iij-qHysWs-Uo9S0j0E4c-b_bUcg1n6C-EKND_kpwWwpHbo9)).
+]
+
+--
+
+
+.large[
+**The Typological Primacy Model**: Sólo una de las dos lenguas influye en la tercera, la históricamente más parecida ([Rothman, 2011](https://journals.sagepub.com/doi/abs/10.1177/0267658310386439?casa_token=_sAiZgkTZhAAAAAA:L0VuOF3HNmWZEuuoL7Z0iX1Xp67VHSSWbVfX8nqwLSCdUZY-l_2r1pOcBKeE9rOl0OoUM_JQPsAS))
+]
+
+--
+
+
+.large[
+**The Linguistic Proximity Model**: Tanto la L1 como la L2 pueden influir en la L3; depende de las estructuras específicas. ([Westergaard et al., 2017](https://journals.sagepub.com/doi/abs/10.1177/1367006916648859?casa_token=y34yDWt3YM4AAAAA:4t-K3a9e_InTHrPz7DHHEswh_z1fpoo1_tlLDFl4bBT8XKpTWKJzDHeNGcyVXi4zZnyYh0tlbB03&casa_token=j07O1QTjWm4AAAAA:6LaP4TDWwzaKvFAVMu6qJA1PSFJCcYIttna0EAHjXmfUAixB6dmOIBLAbrNxYDIwhWpxIeEUa_IF)) 
+]
+
+---
+
+## La evidencia de los modelos
+
+### **Todos los modelos tiene algun tipo de evidencia:**
+
+**Enlaces**
+
+[The Cumulative Enhancement Model](https://docs.google.com/presentation/d/1SIhAXc7fxzv0WGxlBwwac06HkgoSqFBriMhFVPgEp2w/edit?usp=sharing)
+
+[The L2 Status Factor Model](https://docs.google.com/presentation/d/1smxU-C3Wql1-CuOx5lcD8txeQwKf3Jxk4m5AMUvSIno/edit?usp=sharing)
+
+[Un repaso sistemático de Rothman y colegas](https://kparrish92.github.io/parrish_dissertation/slides/index.html#17)
+
+[Un ejemplo en fonología](https://kparrish92.github.io/l3_production_study/l3_ta.html#1 )
+
+[Una lista de estudios de L3 que apoyan ciertos modelos](https://kparrish92.github.io/qp_exp/slides/presentation.html#54)
+
+[Charla de Westergaard sobre el LPM](https://www.youtube.com/watch?v=9849x8l8Y5o&t=528s)
+
+---
+
+# Actividad
+
+**¿Qué predicciones van con cada modelo?**
+
+.pull-left[
+.full-width[
+.content-box-grey[
+**Tenemos un experimento con hablantes...**
+
+
+...de .red[alemán] como L1, .blue[inglés] como L2, y .green[español] como L3
+
+...de .blue[inglés] como L1, .red[alemán] como L2, y .green[español] como L3
+
+1. Los grupos se comportarán de forma diferente en el experimento.
+
+2. Los grupos se comportarán igual. 
+
+3. La influencia de las lenguas ya adquiridas es unicamente útil.
+
+]]]
+.pull-right[
+.full-width[
+.content-box-grey[
+[**The Cumulative Enhancement Model**](https://docs.google.com/presentation/d/1SIhAXc7fxzv0WGxlBwwac06HkgoSqFBriMhFVPgEp2w/edit?usp=sharing): El aprendizaje de idiomas es acumulativo: todos los conocimientos lingüísticos previos pueden ayudar al aprendizaje posterior ([Flynn et al. 2004](https://www.tandfonline.com/doi/abs/10.1080/14790710408668175)). 
+
+
+[**The L2 Status Factor Model**](https://docs.google.com/presentation/d/1smxU-C3Wql1-CuOx5lcD8txeQwKf3Jxk4m5AMUvSIno/edit?usp=sharing): Las segundas lenguas a menudo interfieren y ejercen una influencia tanto útil como inútil en la tercera lengua ([Bardel & Falk, 2007](https://journals.sagepub.com/doi/abs/10.1177/0267658307080557?casa_token=PdwS4Tp1jboAAAAA:QrV_W08tLjN7_mf3-0qySDjoViT3iij-qHysWs-Uo9S0j0E4c-b_bUcg1n6C-EKND_kpwWwpHbo9)).
+
+**The Typological Primacy Model**: Sólo una de las dos lenguas influye en la tercera, la históricamente más parecida ([Rothman, 2011](https://journals.sagepub.com/doi/abs/10.1177/0267658310386439?casa_token=_sAiZgkTZhAAAAAA:L0VuOF3HNmWZEuuoL7Z0iX1Xp67VHSSWbVfX8nqwLSCdUZY-l_2r1pOcBKeE9rOl0OoUM_JQPsAS))
+
+**The Linguistic Proximity Model**: Tanto la L1 como la L2 pueden influir en la L3; depende de las estructuras específicas. ([Westergaard et al., 2017](https://journals.sagepub.com/doi/abs/10.1177/1367006916648859?casa_token=y34yDWt3YM4AAAAA:4t-K3a9e_InTHrPz7DHHEswh_z1fpoo1_tlLDFl4bBT8XKpTWKJzDHeNGcyVXi4zZnyYh0tlbB03&casa_token=j07O1QTjWm4AAAAA:6LaP4TDWwzaKvFAVMu6qJA1PSFJCcYIttna0EAHjXmfUAixB6dmOIBLAbrNxYDIwhWpxIeEUa_IF))
+]]]
+
+
+```{r}
+library(countdown)
+
+countdown(minutes = 6, seconds = 0)
+```
+
+---
+
+# Respuestas 
+
+**Los grupos se comportarán de forma diferente en el experimento.**
+
+> The L2 Status Factor
+
+> The Linguistic Proximity Model (maybe)
+
+--
+
+**Los grupos se comportarán igual.** 
+
+> The Cumulative Enhancement Model 
+
+> The Typological Primacy Model
+
+--
+
+**La influencia de las lenguas ya adquiridas es unicamente útil.**
+
+> The Cumulative Enhancement Model 
+
+
+---
+## Conclusión
+
+### **Hablamos de terceras lenguas**
+
+.large[
+L3 y L2 **difieren** entre sí en aspectos importantes.
+]
+
+--
+
+.large[
+**No hay acuerdo** sobre cómo influyen el L1 y el L2 en el L3: ¡hay que seguir trabajando
+]
+
+--
+
+.large[
+La mayoría de los estudios sobre L3 se centran en la sintaxis; es necesario trabajar más en otros ámbitos.
+]
+
+--
+
+.large[
+Los estudios de L3 también se centran en gran medida en las lenguas románicas y el inglés.
+]
+
+---
+
+
+## Hausarbeit 
+
+.large[
+- Esta es una tarea **solamente** para aquellos que deben hacer un Hausarbeit.
+
+- Un trabajo académico de más de 5 páginas (a doble espacio y con letra de 12 puntos) - estilo apa.
+
+- Elija una afirmación del libro o del semestre y argumente a favor o en contra de ella.
+
+- Cite al menos 5 artículos para apoyar su argumento.
+
+Ejemplo: 
+La adquisición de L2 y la adquisición de L3 son lo mismo - yo creo que son diferentes.
+]
