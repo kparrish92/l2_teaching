@@ -1,0 +1,75 @@
+
+<!---
+
+---
+
+# La adquisición de L1 y L2
+
+.pull-left[
+.full-width[
+.content-box-grey[
+**Discusión 3 (20 minutos)**
+
+¿En qué se diferencian la adquisición de L1 y L2?
+]]]
+
+```{r}
+library(countdown)
+
+countdown(minutes = 10, seconds = 0)
+```
+
+---
+
+## El aprendizaje de L1 está guiado por una habilidad innata
+
+--
+
+.large[
+Los niños empiezan a **aprender su L1 a la misma edad y de forma muy parecida**, ya sea inglés, bengalí, coreano, swahili o cualquier otra lengua del mundo.
+]
+
+--
+
+.large[
+Los niños dominan las operaciones **fonológicas y gramaticales básicas** de su L1 en torno **a los cinco o seis años**, como ya se ha señalado, independientemente de cuál sea la lengua.
+]
+
+--
+
+.large[
+Los niños pueden comprender y crear expresiones nuevas; no se limitan a repetir lo que han oído y, de hecho, las expresiones que producen suelen ser sistemáticamente distintas de las de los adultos que los rodean.
+]
+
+--
+
+.large[
+Existe una edad límite para la adquisición de la L1, más allá de la cual nunca puede ser completa.
+]
+
+--
+
+.large[
+It does not matter if you're stupid: La adquisición de la L1 no es simplemente una faceta de la inteligencia general.
+]
+
+---
+
+## El aprendizaje de L2 es variable
+
+.pull-left[
+.full-width[
+.content-box-grey[
+El aprendizaje de la L1 por parte de los niños se produce sin instrucción, el desarrollo de la L2 pueden verse facilitados o inhibidos por muchos factores sociales e individuales.
+]]]
+
+--
+
+.pull-right[
+.full-width[
+.content-box-grey[
+**Discusión 4 (20 minutos)**
+¿Por qué algunos estudiantes de L2 tienen más éxito que otros?
+]]]
+
+-->

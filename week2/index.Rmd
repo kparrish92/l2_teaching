@@ -1,5 +1,5 @@
 ---
-title: "Clase 1: ¿Qué es la adquisición de una segunda lengua (SLA)?"
+title: "Clase 2: Language Modes"
 subtitle: 'La enseñanza de lenguas romances como L2'
 author  : "Kyle Parrish"
 date    : "Goethe Uni Frankurt</br>Verano 2025</br>Last update: `r Sys.Date()`"
@@ -105,43 +105,14 @@ slides_from_images <- function(
 options("slide_image_placeholder" = FALSE)
 ```
 
-## ¿Qué es una segunda lengua?
-
---
-
-Según Saville-Troike: La adquisición de **una nueva lengua** después de la infancia.
-
-Puede ser la segunda, tercera, o décima lengua aprendida (todos los casos son SLA según ella)
+## Repaso
 
 --
 
 .pull-left[
 .full-width[
 .content-box-grey[
-**Discusión 1 (20 minutos)**
-
-¿Estás de acuerdo en que la adquisición de L2 debería incluir todas las lenguas aprendidas después de la infancia? (tercera, cuarta, etc.).
-
-Apoye su opinión con un ejemplo de su propio aprendizaje o enseñanza: ¿por qué sí o por qué no?
-
-]]]
-
-```{r}
-library(countdown)
-
-countdown(minutes = 10, seconds = 0)
-```
-
----
-
-## Una breve introducción a la adquisición de una L3
-
---
-
-.pull-left[
-.full-width[
-.content-box-grey[
-Existe un campo llamado **adquisición de L3** que se centra precisamente en esta cuestión: ¿es lo mismo aprender una L3 que una L2?
+La **adquisición de L3** que se centra precisamente en esta cuestión: ¿es lo mismo aprender una L3 que una L2?
 
 Se han presentado varias propuestas como modelos científicos.
 
@@ -165,7 +136,7 @@ Los modelos se tratan de si…
 
 ---
 
-## Las predicciones de los modelos:
+## Los modelos L3
 
 .large[
 [**The Cumulative Enhancement Model**](https://docs.google.com/presentation/d/1SIhAXc7fxzv0WGxlBwwac06HkgoSqFBriMhFVPgEp2w/edit?usp=sharing): El aprendizaje de idiomas es acumulativo: todos los conocimientos lingüísticos previos pueden ayudar al aprendizaje posterior ([Flynn et al. 2004](https://www.tandfonline.com/doi/abs/10.1080/14790710408668175)). 
@@ -194,133 +165,146 @@ Los modelos se tratan de si…
 
 ---
 
-## La evidencia de los modelos
+# Las representaciones lingüísticas
 
-### **Todos los modelos tiene algun tipo de evidencia:**
+.large[
+Estas preguntas en L3 implican que las lenguas en la mente de un hablante pueden infliuirse unas a otras
+]
 
-**Enlaces**
+--
 
-[The Cumulative Enhancement Model](https://docs.google.com/presentation/d/1SIhAXc7fxzv0WGxlBwwac06HkgoSqFBriMhFVPgEp2w/edit?usp=sharing)
+.large[
+La presencia de transferencia nos dice que las lenguas en la mente de un hablante no son 100% seperada:
 
-[The L2 Status Factor Model](https://docs.google.com/presentation/d/1smxU-C3Wql1-CuOx5lcD8txeQwKf3Jxk4m5AMUvSIno/edit?usp=sharing)
+La **transferencia positiva**: una estructura o regla de L1 se utiliza en la L2 y ese uso es apropiado o «correcto» en la L2
 
-[Un repaso sistemático de Rothman y colegas](https://kparrish92.github.io/parrish_dissertation/slides/index.html#17)
-
-[Un ejemplo en fonología](https://kparrish92.github.io/l3_production_study/l3_ta.html#1 )
-
-[Una lista de estudios de L3 que apoyan ciertos modelos](https://kparrish92.github.io/qp_exp/slides/presentation.html#54)
-
-[Charla de Westergaard sobre el LPM](https://www.youtube.com/watch?v=9849x8l8Y5o&t=528s)
+La **transferencia negativa** (o interferencia): una estructura o regla de L1 se utiliza en la L2 y ese uso es inadecuado y se considera un «error».
+]
 
 ---
 
-# Actividad
-
-**¿Qué predicciones van con cada modelo?**
+# La transferencia lingüística
 
 .pull-left[
 .full-width[
 .content-box-grey[
-**Tenemos un experimento con hablantes...**
+**Discusión 1 (20 minutos)**
 
+¿Cuales son algunos ejemplos de transferencia positiva negativa en español por hablantes de alemán cómo L1? 
 
-...de .red[alemán] como L1, .blue[inglés] como L2, y .green[español] como L3
-
-...de .blue[inglés] como L1, .red[alemán] como L2, y .green[español] como L3
-
-1. Los grupos se comportarán de forma diferente en el experimento.
-
-2. Los grupos se comportarán igual. 
-
-3. La influencia de las lenguas ya adquiridas es unicamente útil.
-
+¿Hay un impacto del inglés?
 ]]]
-.pull-right[
-.full-width[
-.content-box-grey[
-[**The Cumulative Enhancement Model**](https://docs.google.com/presentation/d/1SIhAXc7fxzv0WGxlBwwac06HkgoSqFBriMhFVPgEp2w/edit?usp=sharing): El aprendizaje de idiomas es acumulativo: todos los conocimientos lingüísticos previos pueden ayudar al aprendizaje posterior ([Flynn et al. 2004](https://www.tandfonline.com/doi/abs/10.1080/14790710408668175)). 
-
-
-[**The L2 Status Factor Model**](https://docs.google.com/presentation/d/1smxU-C3Wql1-CuOx5lcD8txeQwKf3Jxk4m5AMUvSIno/edit?usp=sharing): Las segundas lenguas a menudo interfieren y ejercen una influencia tanto útil como inútil en la tercera lengua ([Bardel & Falk, 2007](https://journals.sagepub.com/doi/abs/10.1177/0267658307080557?casa_token=PdwS4Tp1jboAAAAA:QrV_W08tLjN7_mf3-0qySDjoViT3iij-qHysWs-Uo9S0j0E4c-b_bUcg1n6C-EKND_kpwWwpHbo9)).
-
-**The Typological Primacy Model**: Sólo una de las dos lenguas influye en la tercera, la históricamente más parecida ([Rothman, 2011](https://journals.sagepub.com/doi/abs/10.1177/0267658310386439?casa_token=_sAiZgkTZhAAAAAA:L0VuOF3HNmWZEuuoL7Z0iX1Xp67VHSSWbVfX8nqwLSCdUZY-l_2r1pOcBKeE9rOl0OoUM_JQPsAS))
-
-**The Linguistic Proximity Model**: Tanto la L1 como la L2 pueden influir en la L3; depende de las estructuras específicas. ([Westergaard et al., 2017](https://journals.sagepub.com/doi/abs/10.1177/1367006916648859?casa_token=y34yDWt3YM4AAAAA:4t-K3a9e_InTHrPz7DHHEswh_z1fpoo1_tlLDFl4bBT8XKpTWKJzDHeNGcyVXi4zZnyYh0tlbB03&casa_token=j07O1QTjWm4AAAAA:6LaP4TDWwzaKvFAVMu6qJA1PSFJCcYIttna0EAHjXmfUAixB6dmOIBLAbrNxYDIwhWpxIeEUa_IF))
-]]]
-
 
 ```{r}
 library(countdown)
 
-countdown(minutes = 6, seconds = 0)
+countdown(minutes = 10, seconds = 0)
 ```
 
 ---
 
-# Respuestas 
+# Language modes de Grosjean
 
-**Los grupos se comportarán de forma diferente en el experimento.**
+.pull-left[
+.full-width[
+.content-box-grey[
+**Discusión 2 (20 minutos)**
 
-> The L2 Status Factor
+Un bilingüe no es dos monolingües en uno [(Grosjean, 1988)](https://www.sciencedirect.com/science/article/abs/pii/0093934X89900485)
 
-> The Linguistic Proximity Model (maybe)
+¿Qué quiere decir eso? ¿Estás de acuerdo?
+]]]
 
---
+```{r}
+library(countdown)
 
-**Los grupos se comportarán igual.** 
-
-> The Cumulative Enhancement Model 
-
-> The Typological Primacy Model
-
---
-
-**La influencia de las lenguas ya adquiridas es unicamente útil.**
-
-> The Cumulative Enhancement Model 
-
-
----
-## Conclusión
-
-### **Hablamos de terceras lenguas**
-
-.large[
-L3 y L2 **difieren** entre sí en aspectos importantes.
-]
+countdown(minutes = 10, seconds = 0)
+```
 
 --
 
-.large[
-**No hay acuerdo** sobre cómo influyen el L1 y el L2 en el L3: ¡hay que seguir trabajando
-]
+.pull-right[
+.full-width[
+.content-box-grey[
 
---
+Se presentan dos visiones del bilingüismo: 
 
-.large[
-La mayoría de los estudios sobre L3 se centran en la sintaxis; es necesario trabajar más en otros ámbitos.
-]
+**La monolingüe o fraccionada**: el bilingüe es dos monolingües en una sola persona.
 
---
-
-.large[
-Los estudios de L3 también se centran en gran medida en las lenguas románicas y el inglés.
-]
+**La bilingüe o holística**: la coexistencia de dos lenguas en el bilingüe  produce un hablante-oyente único y específico. 
+]]]
 
 ---
 
-
-## Hausarbeit 
+# Language modes de Grojean 
 
 .large[
-- Esta es una tarea **solamente** para aquellos que deben hacer un Hausarbeit.
-
-- Un trabajo académico de más de 5 páginas (a doble espacio y con letra de 12 puntos) - estilo apa.
-
-- Elija una afirmación del libro o del semestre y argumente a favor o en contra de ella.
-
-- Cite al menos 5 artículos para apoyar su argumento.
-
-Ejemplo: 
-La adquisición de L2 y la adquisición de L3 son lo mismo - yo creo que son diferentes.
+Grosjean defiende la visión holística con **2 puntos principales**:
 ]
+
+--
+
+.large[
+**El bilingüe no es dos monolingües en uno**: Las lenguas no se representan de forma autónoma: code-switching (ahora también tenemos estudios de procesamiento)
+]
+
+--
+
+.large[
+**El bilingüe es un hablante-oyente único y específico**: Las dos lenguas en un bilingüe rara vez responden a las mismas necesidades o funciones sociales.
+]
+
+
+---
+
+# Language modes de Grojean 
+
+--
+
+.large[
+En su vida cotidiana, los bilingües se encuentran en varios puntos
+a lo largo de un continuo «situacional» que induce un modo de habla particular. 
+
+Modos de **habla bilingüe**:
+]
+
+--
+
+.large[
+**Modo monolingüe**: los bilingües adoptan la lengua del
+interlocutor monolingüe y desactivan, lo mejor que pueden, la otra
+lengua
+]
+
+--
+
+.large[
+**Modo bilingüe**: en el que se activan ambas lenguas, los bilingües se convierten en hablantes-oyentes muy diferentes. Primero «eligen» una lengua para utilizar con su interlocutor bilingüe (la llamaremos «lengua de base") y, a continuación, mezclan la otra lengua cuando es necesario. (lo que suele denominarse «mezcla de lenguas»).
+]
+
+---
+
+
+# El impacto de Language Modes 
+
+.pull-left[
+.full-width[
+.content-box-grey[
+**Discusión 3 (20 minutos)**
+
+¿Qué impacto puede tener los Language modes en experimentos lingüísticos?
+]]]
+
+```{r}
+library(countdown)
+
+countdown(minutes = 10, seconds = 0)
+```
+
+--
+
+.pull-right[
+.full-width[
+.content-box-grey[
+[Double phonemic boundary effect](https://www.sciencedirect.com/science/article/pii/S0095447018300111)
+]]]
