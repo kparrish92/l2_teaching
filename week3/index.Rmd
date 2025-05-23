@@ -1,0 +1,196 @@
+---
+title: "Clase 3: Marcos teóricos de la adquisición de L2"
+subtitle: 'La enseñanza de lenguas romances como L2'
+author  : "Kyle Parrish"
+date    : "Goethe Uni Frankurt</br>Verano 2025</br>Last update: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: [default, hygge, my-css.css, rutgers-fonts]
+    lib_dir: libs
+    nature:
+      countIncrementalSlides: false
+      ratio: 16:9
+---
+
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(
+  comment = '', fig.width = 6, fig.height = 6, message = FALSE, warning = FALSE, echo = FALSE
+)
+```
+
+# La adquisición de L1 y L2
+
+.pull-left[
+.full-width[
+.content-box-grey[
+**Discusión 1 (20 minutos)**
+
+¿En qué se diferencian la adquisición de L1 y L2?
+]]]
+
+```{r, echo = FALSE}
+library(countdown)
+
+countdown(minutes = 10, seconds = 0)
+```
+
+---
+
+# La adquisición de L1 no varia mucho.
+
+.pull-left[
+.large[
+La adquisición de una L1 **empieza a la misma edad** entre lenguas.
+
+Los niños dominan las operaciones fonológicas y gramaticales básicas a los cinco o seis años.
+]]
+
+--
+
+.pull-right[
+.large[
+.blue[La recursividad]: Los niños pueden comprender y crear expresiones nuevas.
+
+.green[Critical Period]: Existe una edad límite para la adquisición de la L1
+
+.red[La falta de variación cognitiva]: La adquisición de la L1 no es simplemente una faceta de la inteligencia general.
+]]
+
+---
+
+# El problema lógico del aprendizaje del lenguaje: L1
+
+.large[¿Cómo pueden los niños aprender su lengua materna con tanta facilidad a pesar de su capacidad cognitiva inmadura y la complejidad del sistema lingüístico que adquieren?]
+
+--
+
+.large[Este es el **problema lógico del aprendizaje del lenguaje**]  
+
+--
+
+.large[Muchos lingüistas y psicólogos creen que este logro
+requiere **procesos innatos y espontáneos** de aprendizaje.]  
+
+--
+
+- .large[**Noam Chomsky** (1957, 1965) propuso la existencia de una **Gramática Universal** como base innata del conocimiento lingüístico.]  
+
+--
+
+- .large[Esta teoría ha influido profundamente en la investigación sobre la adquisición del lenguaje y será discutida más adelante. Discutimos 3 argumentos por la existencia de una habilidad innata de adquirir lenguaje.] 
+
+---
+
+## **Argumento 1**: El conocimiento lingüístico de los niños supera el input recibido
+
+.large[El argumento de la **pobreza del estímulo** afirma que los niños  
+escuchan oraciones incompletas o agramaticales junto con input gramatical.]  
+
+- Aun así, logran **filtrar** el input no gramatical y no lo integran en su sistema lingüístico.  
+
+--
+
+.large[Reciben input simplificado que **no contiene** toda la complejidad que son capaces de manejar.]  
+
+--
+
+.large[Escuchan solo un subconjunto finito de oraciones posibles, pero infieren **principios generales** que les permiten producir oraciones nunca oídas.]  
+
+---
+
+## **Argumento 2**: Las restricciones y principios no se pueden aprender
+
+.large[Los niños acceden a **restricciones y principios generales**   que explican la rápida y sistemática aparición de la gramática L1.]  
+
+--
+
+.large[Esto ocurre porque **principios innatos** les permiten organizar el input de formas limitadas.]  
+
+--
+
+.large[Los niños adquieren el lenguaje cuando aún **no comprenden abstracciones complejas**.]  
+
+--
+
+.large[Los niños adquieren el lenguaje sin ayuda: sugiere el uso de mecanismos distintos a la inteligencia de propósito general.]
+
+---
+
+## **Argumento 3**: Los patrones universales no se explican por el input específico
+
+.large[El input lingüístico contiene solo sonidos, palabras y estructuras  
+de una lengua específica.]  
+
+--
+
+.large[Los niños muestran patrones similares al adquirir cualquier lengua del mundo a pesar de las grandes diferencias superficiales
+entre idiomas.]  
+
+--
+
+.large[La similitud sugiere que hay **universales lingüísticos**]  
+
+---
+
+# El aprendizaje de L2 es variable
+
+.large[
+El desarrollo de la L2 pueden verse facilitados o inhibidos por muchos **factores sociales e individuales**.
+]
+
+--
+
+.large[Si extendemos el problema lógico al aprendizaje de L2, debemos explicar cómo se logra la competencia multilingüe a pesar del input limitado.]  
+
+--
+
+.large[Los aprendices de L2 desarrollan **conocimiento implícito** que no se enseña ni se puede inferir directamente del input.]
+
+--
+
+.large[Sin embargo, L1 y L2 difieren en aspectos fundamentales.]  
+
+--
+
+.large[Los aprendices de L2:  
+- no siempre tienen éxito  
+- son cognitivamente más avanzados  
+- pueden recibir instrucción y corrección  
+- están influenciados por muchos factores adicionales 
+- tienen acceso de la capacidad innata como en L1?
+]
+
+---
+
+# La adquisición de L1 y L2
+
+.pull-left[
+.full-width[
+.content-box-grey[
+**Discusión 2 (20 minutos)**
+¿Por qué algunos estudiantes de L2 tienen más éxito que otros?
+]]]
+
+---
+
+# Diferencias individuales
+
+.large[Este enfoque pregunta por qué unos aprenden mejor que otros.]  
+
+--  
+
+.large[Surge del **enfoque humanista** en psicología.]  
+
+--
+
+.large[Incluye factores afectivos: **actitudes**, **motivación**, **ansiedad**.]  
+
+--
+
+.large[También considera diferencias **biológicas** como edad y sexo,  
+y diferencias en el procesamiento mental.]  
+
+--
+
+...hablamos más en dos semanas!
+

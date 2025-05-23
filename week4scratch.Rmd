@@ -1,0 +1,160 @@
+Start with ids (Daweale 2009)
+
+# Enfoques teóricos para la adquisición de segundas lenguas (SLA)
+
+.large[El interés por el aprendizaje de segundas lenguas existe desde hace siglos,  
+pero solo desde los años 60 se desarrollaron **teorías sistemáticas**.]  
+
+-- 
+
+.large[Las preguntas clave de la SLA son:  
+1. ¿Qué sabe el aprendiz de L2?  
+2. ¿Cómo adquiere ese conocimiento?  
+3. ¿Por qué algunos aprenden mejor que otros?]  
+
+--
+
+.large[Los enfoques se agrupan en tres marcos principales: **lingüístico**, **psicológico** y **social**.]  
+
+.large[Estos marcos están interrelacionados y serán tratados por separado en los siguientes capítulos.]
+
+---
+
+# Desarrollo histórico de marcos teóricos en SLA
+
+.large[Antes de los años 60, el interés por la L2 se centraba en la **enseñanza de lenguas extranjeras**.]  
+
+--
+
+.large[El modelo lingüístico dominante hasta los años 50 fue el **Estructuralismo** (Bloomfield 1933).]  
+
+-- 
+
+.large[Este modelo se enfocaba en describir niveles del habla:  
+- Fonología  
+- Morfología  
+- Sintaxis  
+- Semántica  
+- Léxico]  
+
+---
+
+# Desarrollo histórico de marcos teóricos en SLA
+
+.large[El modelo psicológico principal era el **Conductismo** (Skinner 1957),  
+basado en la **formación de hábitos** a través de estímulo-respuesta-refuerzo (S-R-R).]
+
+.large[El conductismo consideraba que las respuestas reforzadas se convertían en **hábitos lingüísticos**.]  
+
+-- 
+
+.large[El estructuralismo y el conductismo  se combinaron en el método **Audiolingual**, basado en repetición y formación de hábitos.]  
+
+-- 
+
+.large[Este enfoque dominó la enseñanza de idiomas hasta al menos los años 80.]  
+
+-- 
+
+.large[También es relevante la **Teoría Sociocultural** de Vygotsky (1962),  
+que destaca el rol de la interacción social en el aprendizaje.]  
+
+-- 
+
+.large[Esta teoría sigue influyendo en enfoques de SLA  
+centrados en el input y la interacción.]
+
+---
+
+# Perspectiva lingüística en SLA
+
+.large[Desde 1960, el enfoque lingüístico en SLA  
+se ha dividido en dos áreas: **interna** y **externa**.]  
+
+--  
+
+.large[El enfoque **interno**, influido por Chomsky,  
+busca explicar el **conocimiento subyacente** del lenguaje  
+(la competencia lingüística).]  
+
+--  
+
+.large[Este enfoque se opone al estructuralismo,  
+que describía solo las **formas superficiales**.]  
+
+--  
+
+.large[El enfoque **externo** se centra en el **uso del lenguaje**,  
+y las funciones que aparecen en distintas etapas del desarrollo.]  
+
+---
+# Enfoque externo en SLA
+
+.large[Los marcos lingüísticos con enfoque externo  
+se agrupan bajo el **Funcionalismo**.]  
+
+--  
+
+.large[Este enfoque surgió en el siglo XX  
+con raíces en la **Escuela de Praga**.]  
+
+--
+
+.large[Se diferencia del enfoque chomskiano  
+al centrarse en el **contenido informativo**  
+y ver el lenguaje como un **sistema comunicativo**.]  
+
+--  
+
+.large[Algunos enfoques comparan lenguas del mundo  
+y relacionan sus similitudes/diferencias  
+con la secuencia y dificultad de aprendizaje.]  
+
+--  
+
+.large[Otros ven la adquisición como el mapeo  
+entre **funciones comunicativas** y **formas lingüísticas**.]  
+
+--  
+
+.large[También se estudia cómo los aprendices estructuran la información  
+al producir en L2, y cómo esto impacta la adquisición.]  
+
+--  
+
+.large[Los enfoques funcionalistas dominan el estudio de SLA en Europa  
+y son influyentes a nivel global.]  
+
+---
+
+# Perspectiva psicológica en SLA
+
+.large[Tres enfoques principales:  
+**lenguaje y cerebro**, **procesos de aprendizaje**  
+y **diferencias individuales**.]  
+
+---
+
+# Lenguaje y el cerebro
+
+.large[Desde el siglo XIX, psicólogos y biólogos  
+se interesan en cómo el cerebro representa el lenguaje.]  
+
+--  
+
+.large[La **neurolingüística** comenzó a influir en SLA  
+desde los años 60.]  
+
+--  
+
+.large[Lenneberg (1967) propuso un **período crítico**  
+para adquirir lenguas, basado en la neurología.]  
+
+--  
+
+.large[Investigaciones modernas usan técnicas cerebrales no invasivas  
+para estudiar multilingüismo.]  
+
+---
+
+
