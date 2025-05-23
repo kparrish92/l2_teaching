@@ -1,5 +1,5 @@
 ---
-title: "Clase 3: Marcos teóricos de la adquisición de L2"
+title: "Clase 3: Las diferencias entre la adquisición de L1 y L2"
 subtitle: 'La enseñanza de lenguas romances como L2'
 author  : "Kyle Parrish"
 date    : "Goethe Uni Frankurt</br>Verano 2025</br>Last update: `r Sys.Date()`"
@@ -177,18 +177,18 @@ El desarrollo de la L2 pueden verse facilitados o inhibidos por muchos **factore
 
 .large[Este enfoque pregunta por qué unos aprenden mejor que otros.]  
 
---  
+--
 
 .large[Surge del **enfoque humanista** en psicología.]  
 
 --
 
-.large[Incluye factores afectivos: **actitudes**, **motivación**, **ansiedad**.]  
+.large[Incluye factores afectivos: actitudes, motivación, ansiedad.]
 
 --
 
-.large[También considera diferencias **biológicas** como edad y sexo,  
-y diferencias en el procesamiento mental.]  
+.large[También considera diferencias biológicas como edad y sexo,  
+y diferencias en el procesamiento mental.]
 
 --
 
