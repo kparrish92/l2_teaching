@@ -1,0 +1,451 @@
+---
+title: "Clase 4: Las diferencias individuales"
+subtitle: 'La enseñanza de lenguas romances como L2'
+author  : "Kyle Parrish"
+date    : "Goethe Uni Frankurt</br>Verano 2025</br>Last update: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: [default, hygge, my-css.css, rutgers-fonts]
+    lib_dir: libs
+    nature:
+      countIncrementalSlides: false
+      ratio: 16:9
+---
+
+```{r, setup, include=FALSE}
+library(here)
+knitr::opts_chunk$set(
+  comment = '', fig.width = 6, fig.height = 6, message = FALSE, warning = FALSE, echo = FALSE
+)
+```
+
+
+
+
+
+.pull-left[
+.center[
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+## Los cerebros son como **huellas dactilares**.
+]]
+
+.pull-right[
+<br>
+<br>
+<br>
+<br>
+<br>
+```{r}
+knitr::include_graphics(here("week4", "img", "fingerprint.png"))
+```
+]
+
+.footnote[La lección de hoy viene de Dewaele (2009): Individual differences in second language acquisition]
+---
+
+# Diferencias individuales
+
+.pull-left[
+<br>
+```{r}
+knitr::include_graphics(here("week4", "img", "neuro.png"))
+```
+]
+
+.pull-right[
+<br>
+<br>
+<br>
+## No como huellas dactilares: los cerebros **cambian** a lo largo de la vida.
+]
+
+
+---
+
+# Diferencias individuales
+
+### El cerebro puede cambiar debido al **comportamiento**.
+
+--
+
+<br>
+
+> .large[Ejemplo no lingüístico: Maguire, Woollett y Spiers (2006). 
+
+> Los investigadores descubrieron que los conductores de taxis negros en Londres tienen un mayor volumen de materia gris en el hipocampo posterior (es decir, el almacén de los recuerdos espaciales) en comparación con los sujetos de control, y cuanto más tiempo llevaban en el trabajo, mayor era el volumen de materia gris.]
+
+--
+
+<br>
+
+###  El aumento ocurrió por el uso constante y la actualización de representaciones «espaciales»
+
+---
+
+# Diferencias individuales en L2 
+
+### Pensamos que algo parecido ocurre con los aprendices de L2. 
+
+<br>
+
+--
+
+> .large[Mechelli et al. (2004) encontraron una mayor densidad de materia gris en cerebro de los bilingües en comparación con los controles monolingües.]
+
+--
+
+<br>
+
+### Sabemos que hay diferencias en el **posible nivel de adquisición** de una L2 entre personas. 
+
+### Es posible que ciertas **diferencias congitivas** jueguen un papel importante en el desarollo lingüísitco. 
+
+---
+
+# ¿Queremos encontrar diferencias o no?
+
+.pull-left[
+.full-width[
+.content-box-grey[
+.large[
+**Discusión 1 (20 minutos)**
+
+¿Qué es variable y qué es invariable en la adquisición del lenguaje? 
+
+¿Por qué preocuparse por uno u otro?
+
+]]]]
+
+```{r, echo = FALSE}
+library(countdown)
+
+countdown(minutes = 10, seconds = 0)
+```
+
+---
+
+# ¿Queremos encontrar diferencias o no?
+
+
+.large[
+Feldman Barrett sobre el objetivo de la psicología humana:
+
+> el descubrimiento de «los constructos científicamente viables que describen lo que es **variable e invariable** en el funcionamiento de la mente humana» (2006, p. 35). 
+]
+
+--
+
+.large[Se podría reformular esta definición para la investigación de la adquisición del lenguaje
+
+> La búsqueda de constructos o categorías científicamente viables que describen lo que es variable e invariable en .green[la adquisición y el uso del lenguaje.]
+]
+
+--
+
+A Chomsky le importa lo **invariable** (por ejemplo, los universales: ¿qué cosas son comunes en todas las mentes?).
+
+Los sociolingüistas se interesan por lo **variable** (por ejemplo, las mentes difieren en general; ¿cómo afecta esto al aprendizaje de segundas lenguas?).
+
+---
+
+# ¿Queremos encontrar diferencias o no?
+
+
+.pull-left[
+### Dawaele presenta una visión general de los DI, con un enfoque en dos tipos: **internos** al alumno y **externos** al alumno. 
+]
+
+--
+
+.pull-right[
+### No existe una .red[«teoría unificadora»] de los DI y es posible que nunca la haya.
+]
+
+---
+
+# ¿Queremos encontrar diferencias o no?
+
+.pull-left[
+.full-width[
+.content-box-grey[
+.large[Algunos dicen que hay una capacidad/aptitud para el aprendizaje de idiomas que varia entre personas. 
+
+.green[Hipótesis]: una mayor aptitud para el aprendizaje de idiomas significa que se aprende el idioma más fácilmente. 
+]]]]
+
+--
+
+.pull-right[
+.full-width[
+.content-box-grey[
+.large[
+**Discusión 2 (15 minutos)**
+¿Qué es, en tu opinión, la aptitud para el aprendizaje de idiomas?
+]]]]
+
+```{r, echo = FALSE}
+library(countdown)
+
+countdown(minutes = 10, seconds = 0)
+```
+
+---
+
+## **Factor interno**: las definiciones de aptitud para los idiomas
+
+.large[
+¿Se refiere a la inteligencia? La relación entre inteligencia y aptitud ha cambiado a lo largo de los años.]
+
+--
+
+> .large[.green[Skehan (1989)] " «el talento para aprender idiomas que es independiente de la inteligencia» (p. 276).]
+
+<br>
+--
+
+> .large[.blue[Dörnyei y Skehan (2003)]: la aptitud para el aprendizaje de idiomas es un «talento específico para aprender [ . . . ] idiomas que presenta variaciones considerables entre los estudiantes» (p. 590).]
+
+<br>
+--
+
+> .large[.red[Dörnyei (2006)] no existe la «aptitud para los idiomas» - se trata simplemente de una serie de *factores cognitivos*.]
+
+---
+
+## Working Memory
+
+### Miyake y Friedman (1998): la capacidad de la **Working Memory (WM)** es el componente central de la aptitud lingüística. 
+
+<br>
+
+--
+
+> .large[Working Memory es un componente de la memoria a corto plazo con una capacidad limitada que puede almacenar información de forma temporal.]
+
+--
+
+<br>
+
+> .large[Hay estudios que muestran una relación entre los ID en la capacidad de WM en L1 y tanto la capacidad de WM en L2 como las habilidades de comprensión del idioma L2. ]
+
+
+---
+
+## Encoding ability  
+
+### Una hipótesis es que ciertas **habilidades en la L1 predice** la capacidad de aprendizaje de la L2.
+
+<br> 
+
+--
+
+> .large[Skehan (1989) hay una correlación positiva significativa entre la .blue[velocidad de adquisición de la L1] en niños pequeños y su .green[rendimiento en la adquisición de la L2 a los 13 años]]
+
+<br>
+
+--
+
+> .large[Dewaele (2007a): .blue[las calificaciones] obtenidas por los estudiantes de secundaria en la primera lengua estaban muy correlacionadas con sus calificaciones en la segunda, tercera y cuarta lengua.]
+
+--
+
+<br>
+
+### Sugiere que esto es una prueba de una **aptitud innata** para los idiomas. 
+---
+
+
+## Otros factores 
+
+### Sternberg (2002): las **habilidades analíticas** son importantes en el SLA, pero solo **en combinación con habilidades creativas y prácticas**.
+
+--
+
+> .large[El éxito depende de la coincidencia entre las condiciones de instrucción y el patrón de habilidades" «cuando se enseña a los alumnos de una manera que se adapta a su forma de pensar, obtienen mejores resultados en la escuela» (2002, p. 34).]
+
+--
+
+### Slevc y Miyake (2006): **la habilidad musical** predice la precisión en la percepción y la producción de los sonidos de la L2. 
+
+--
+
+### Casillas et al., 2023: **la empatía** predice la precisión en la percepción de pistas prosódicas para distinguir declaraciones y preguntas. 
+
+---
+
+
+# Factores internos: rasgos de personalidad
+
+.pull-left[
+.full-width[
+.content-box-grey[
+.large[
+**Discusión 3 (20 minutos)**
+
+¿Qué rasgos de personalidad podría tener una persona que aprende idiomas con éxito?
+
+]]]]
+
+```{r, echo = FALSE}
+library(countdown)
+
+countdown(minutes = 10, seconds = 0)
+```
+
+---
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+.pull-left[
+.large[
+<br>
+## **Extraversión-Introversión**
+]]
+
+--
+
+.pull-right[
+### .red[No] se ha demostrado que las personas extrovertidas sean mejores aprendiendo idiomas en general (Naiman et al., 1978). 
+
+### Se correlacionan .green[positivamente] con las medidas de fluidez oral. 
+]
+
+---
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+.pull-left[
+.large[
+## **Neuroticismo-Estabilidad emocional**
+
+Un alto nivel de neuroticismo significa una mayor propensión a la ansiedad. 
+]]
+
+--
+
+.pull-right[
+<br>
+### Esto .red[no] se correlacionó con las calificaciones en la L2 (Dewaele, 2007). 
+]
+
+---
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+.pull-left[
+.large[
+## **Psicoticismo**
+
+Las personas con puntuaciones altas en la escala de psicoticismo «tienden a ser hostiles, frías, agresivas y tienen malas relaciones interpersonales» (p. 327). 
+]]
+
+--
+
+.pull-right[
+.large[
+<br>
+### .red[Menos éxito] en las clases de idiomas (Dewaele, 2007). 
+]]
+
+---
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+.pull-left[
+.large[
+## **Conciencia** 
+
+3 se asocia con el esfuerzo por la persistencia, la autodisciplina y el logro (Busato, Prins, Elshout y Hamaker, 2000). 
+]]
+
+--
+
+.pull-right[
+<br>
+### Wilson (2008): los estudiantes de la universidad abierta matriculados en francés L2 que obtuvieron puntuaciones más altas en conciencia eran .green[más propensos a completar el curso con éxito]. 
+]
+---
+
+<br>
+<br>
+<br>
+<br>
+.pull-left[
+.large[
+
+## **Apertura a la experiencia**
+
+Las personas con puntuaciones altas en apertura tendrían «una mayor predisposición a participar en actividades intelectualmente estimulantes que conducen a una mayor adquisición de conocimientos» (Furnham y Chamorro-Premuzic, 2006, p. 81). 
+]]
+
+--
+
+.pull-right[
+.large[
+<br>
+<br>
+### La apertura a la experiencia era un .green[buen predictor] del rendimiento en el aprendizaje de lenguas extranjeras (Young, 2007). 
+]]
+
+---
+
+<br>
+<br>
+<br>
+<br>
+.pull-left[
+.large[
+## **Inteligencia emocional**
+
+El grado en que prestan atención, procesan y utilizan la información cargada de afecto de naturaleza intrapersonal (gestión de sus emociones) o interpersonal (gestión de las emociones de los demás). 
+]]
+--
+
+.pull-right[
+.large[
+<br>
+### La IE se asocia con niveles .green[más bajos] de ansiedad al hablar (Deawele, Petrides y Furnham, 2008).
+]]
+
+---
+
+# Conclusión
+
+### Los aprendices de L2 son diferentes en su proceso de aprender y el resultado 
+
+--
+
+### Hay factores **cognitivos** que explican algunas diferencias como: .orange[Working Memory, encoding ability (L1), habilidades analíticas, habilidades musicales, y la empatía]. 
+
+--
+
+### Hay otros factores de la **personalidad** que también explican las diferencias: .green[la extraversión, el psicoticismo, la conciencia, la apertura a experiencia, y la inteligencia emocional]. 
+
+--
+
+### Cada estudiante variará en cierta medida en cada una de las dimensiones. Por esta razón, se sostiene que es casi .blue[imposible elaborar una teoría completa y unificadora] que prediga todo el aprendizaje de idiomas.
+
