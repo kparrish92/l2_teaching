@@ -1,5 +1,5 @@
 ---
-title: "Clase 5: La histora de la enseñanza de las lenguas y los modelos actuales"
+title: "Clase 5: La historia de la enseñanza de las lenguas y los modelos actuales"
 subtitle: 'La enseñanza de lenguas romances como L2'
 author  : "Kyle Parrish"
 date    : "Goethe Uni Frankurt</br>Verano 2025</br>Last update: `r Sys.Date()`"
