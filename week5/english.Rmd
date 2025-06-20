@@ -1,0 +1,365 @@
+---
+title: "Clase 5: La histora de la enseñanza de las lenguas y los modelos actuales"
+subtitle: 'La enseñanza de lenguas romances como L2'
+author  : "Kyle Parrish"
+date    : "Goethe Uni Frankurt</br>Verano 2025</br>Last update: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: [default, hygge, my-css.css, rutgers-fonts]
+    lib_dir: libs
+    nature:
+      countIncrementalSlides: false
+      ratio: 16:9
+---
+
+```{r, setup, include=FALSE}
+library(here)
+knitr::opts_chunk$set(
+  comment = '', fig.width = 6, fig.height = 6, message = FALSE, warning = FALSE, echo = FALSE
+)
+```
+
+
+
+
+.center[
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+## Humans have learned languages for as long as we have been speaking them.
+]
+
+---
+
+# La histora de la enseñanza de las lenguas 
+
+.pull-left[
+.full-width[
+.content-box-grey[
+.large[
+**Discusión 1 (20 minutos)**
+
+How were your language courses?
+
+Did you use your first language?
+
+Did you translate?
+
+Did you learn explicit rules?
+
+Did you learn how to pronounce words explicitely? 
+
+]]]]
+
+
+```{r, echo = FALSE}
+library(countdown)
+
+countdown(minutes = 10, seconds = 0)
+```
+
+---
+
+# La histora de la enseñanza de las lenguas 
+
+
+<br>
+<br>
+<br>
+.center[
+### [Método 1](https://methodsoflanguageteaching.byu.edu/the-grammar-translation-method).
+
+
+### [Método 2](https://methodsoflanguageteaching.byu.edu/the-audiolingual-method).
+
+
+### [Método 3](https://methodsoflanguageteaching.byu.edu/communicative-language-teaching).
+]
+
+---
+
+# La histora de la enseñanza de las lenguas 
+
+.pull-left[
+.full-width[
+.content-box-grey[
+.large[
+**Discusión 2 (20 minutos)**
+
+Which method would you like the best as a student? As an instructor?
+
+]]]]
+
+
+```{r, echo = FALSE}
+library(countdown)
+
+countdown(minutes = 10, seconds = 0)
+```
+
+---
+
+# Three methods of language teaching
+
+.center[
+<br>
+<br>
+<br>
+<br>
+<br>
+.large[
+### Grammar Translation Method
+]
+
+
+.large[
+### Audiolingual Method
+]
+
+
+.large[
+### Communicative Language Teaching
+]]
+
+---
+.center[
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+## [Grammar Translation Method](https://methodsoflanguageteaching.byu.edu/the-grammar-translation-method).
+]
+
+---
+
+# Grammar Translation Method
+
+.pull-left[
+.full-width[
+.content-box-grey[
+.large[
+A classical method of language teaching focused on translation.
+
+Deriva del método tradicional de enseñanza del griego y el latín.
+
+Metas: poder traducir textos, desserollo intelectual.
+
+Emphasizes written work over production 
+]]]]
+
+--
+
+.pull-right[
+.full-width[
+.content-box-grey[
+.large[
+Uso de L1: .green[Sí]
+
+Traducción: .green[Sí]
+
+Aprendizaje de reglas: .green[Sí]
+
+Enfoque en pronunciación: .red[no]
+]]]]
+
+---
+
+# Grammar Translation Method
+
+.large[
+## Critisisms:
+
+> **Emphasis on reading and writing and not speaking** <br> (Richards & Rodgers, 201; Zhou & Niu, 2015)]
+
+<br>
+
+--
+
+.large[
+> **Students do not learn to use the language for communication** <br> (Celce-Murcia, 2014) 
+]
+
+<br>
+
+--
+
+.large[
+> **It ignores contextualised learning** and fails to expose learners to ‘authentic varieties in a ‘functional context’, which usually results in students ‘knowing’ something about the language (competence) but not being able to ‘do’ anything with that knowledge (performance). <br> (Zhou & Niu, 2015)]
+
+---
+
+.center[
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+## [The Audiolingual method ](https://methodsoflanguageteaching.byu.edu/the-grammar-translation-method)
+]
+
+---
+
+# The Audiolingual method
+
+.pull-left[
+.full-width[
+.content-box-grey[
+.large[
+Based on behaviorist theory: language can be trained through a system of reinforcement.
+
+Views language as a **habit** that needs to be automatized via repetitive practice (drills)
+]]]]
+
+--
+
+.pull-right[
+.full-width[
+.content-box-grey[
+.large[
+Uso de L1: .red[No]
+
+Traducción: .red[No]
+
+Aprendizaje de reglas: .red[No]
+
+Enfoque en pronunciación: .green[Sí]*
+]]]]
+
+.footnote[*Sidabutar, 2023]
+
+---
+
+# The Audiolingual method 
+
+.large[
+## Critisisms:
+
+> **Language learning cannot be a habit because of Universal Grammar** (Chomsky, 1959)
+]
+
+.large[
+Because language learners produce novel utterances that they never heard before (poverty of stimulus), these could not have been learned purely from habit formation.]
+
+<br>
+
+--
+
+.large[
+> **Lack of instruction in reading**
+(Saville-Troike, 1973)
+]
+
+
+---
+
+.center[
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+## [Communicative language teaching](https://methodsoflanguageteaching.byu.edu/the-grammar-translation-method).
+]
+
+---
+ 
+# Communicative language teaching (CLT)
+
+.pull-left[
+.full-width[
+.content-box-grey[
+.large[
+CLT is an approach to the teaching of languages that emphasizes interaction
+
+Development of **communicative competence**
+
+Fluency Emphasis at the Expense of Accuracy
+
+Posits L2 learners have full access to UG - adults and children learn language in fundamentally the same way.
+
+]]]]
+
+--
+
+.pull-right[
+.full-width[
+.content-box-grey[
+.large[
+Uso de L1: .red[No]
+
+Traducción: .red[No]
+
+Aprendizaje de reglas: .red[No]
+
+Enfoque en pronunciación: .red[No]
+]]]]
+
+
+---
+
+# Communicative language teaching (CLT)
+
+.large[
+## Critisisms:
+
+> **Lack of empirical evidence** <br> Abdulaal, M. A. A. D. (2021), Liu (2015), McLaughlin (1987), and Lightbown and Spada (2006)
+]
+
+.large[
+> **Over reliance on implicit learning; lack of grammar and vocabulary instruction**
+ <br> Larsen-Freeman, 2000; Spada & Lightbown, 2008
+]
+
+.large[
+> **Does not consider individual differences** <br> (Qasserras, 2023)
+]
+
+.large[
+> **Fluency at the expense of accuracy** <br> (Ellis, 2003)
+]
+
+---
+
+# Resumen 
+
+.large[
+We focused on three influential language teaching methods:
+
+- **Grammar Translation**
+
+- **Audio-lingual method**
+
+- **Communicative Language Teaching**
+]
+
+--
+
+.large[
+Grammar translation is the oldest, followed by audio-lingual, while current language teaching is said to be commnucative.
+
+]
+
+--
+
+.large[
+No single method is agreed upon in general.
+]
